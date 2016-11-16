@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_retrofit_simple_contributors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="简单示例"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_retrofit_converter_contributors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="转换器"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_add_okhttp_log_contributors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加日志信息"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_add_header_contributors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加请求头"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/btn_retrofit_sync_contributors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="同步请求"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_retrofit_get_query"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="get请求(Query)"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btn_retrofit_get_query_map"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="get请求(QueryMap)"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_rxJava_retrofit_contributors"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RxJava+Retrofit(1)"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btn_rxJava_retrofit_contributors_with_user_info"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RxJava+Retrofit(2)"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_download_retrofit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#00f"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+</ScrollView>
